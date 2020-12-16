@@ -1,10 +1,13 @@
 language: c
 dist: xenial
+group: edge
+virt: lxd
 sudo: required
 
 arch:
     - amd64
     - arm64
+    - arm64-graviton2
 
 addons:
     apt:
